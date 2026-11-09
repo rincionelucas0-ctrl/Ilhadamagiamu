@@ -1,0 +1,20 @@
+ILHA DA MAGIA — GitHub + Vercel (sin carpetas)
+
+Subí todos los archivos de este ZIP DIRECTAMENTE a la raíz del repositorio, cada uno con su nombre exacto. No subas el ZIP como archivo y no pongas los archivos dentro de otra carpeta.
+
+index.html
+manifest.webmanifest
+sw.js
+vercel.json
+icon-192.png
+icon-512.png
+icon-180.png
+
+En Vercel: Framework Preset Other; Root Directory: raíz donde estén estos archivos; Output Directory vacío o raíz, sin build command. Volvé a desplegar.
+
+Verificación:
+https://oficialilham.vercel.app/icon-192.png
+https://oficialilham.vercel.app/sw.js
+https://oficialilham.vercel.app/manifest.webmanifest
+
+Si los archivos devuelven 404, revisar directorio raíz del despliegue antes de modificar INDEX.
