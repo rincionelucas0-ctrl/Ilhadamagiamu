@@ -1,10 +1,10 @@
 {
-  "id": "./index.html",
+  "id": "./",
   "name": "Ilha da Magia · Florianópolis",
   "short_name": "Ilha da Magia",
   "description": "Descubrí lugares, eventos, ofertas y misiones en Florianópolis",
   "lang": "es",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
