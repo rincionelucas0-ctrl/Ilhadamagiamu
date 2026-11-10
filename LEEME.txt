@@ -1,0 +1,8 @@
+ILHA DA MAGIA - INSTALACIÓN PWA NUEVA
+
+1. Subí a la raíz del repositorio: index.html, manifest.webmanifest, sw.js, icon-180.png, icon-192.png e icon-512.png.
+2. ADMIN se incluye solo como respaldo, no hace falta reemplazarlo.
+3. Esperá a que Vercel publique el nuevo despliegue y abrí https://oficialilham.vercel.app/ desde Chrome Android o Safari iPhone.
+4. Chrome Android: Instalar app o menú ⋮ > Instalar aplicación. Safari iPhone: Compartir > Agregar a pantalla de inicio > Abrir como app web > Agregar.
+5. INDEX > Mi perfil > Instalar permite comprobar que el manifiesto, los iconos y el SW están disponibles.
+NOTA: El botón HTML no puede forzar la instalación iOS ni simular la aprobación del navegador Android. No cambiamos Supabase o ADMIN.
