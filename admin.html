@@ -33,7 +33,40 @@ body{background:#f3f8f8}.admin-wrap{max-width:980px;margin:auto;padding:20px 16p
 .admin-form-intro{background:#eaf7f5;border-radius:12px;color:#4d7879;padding:12px;font-size:12px;line-height:1.5}.admin-savebar{display:flex;gap:10px;align-items:center;position:sticky;bottom:0;background:#f8fcfb;padding:12px;border:1px solid #dbeae7;border-radius:16px;z-index:10;box-shadow:0 -4px 16px #173b4512}.admin-savebar .primary{margin:0;flex:1}.admin-savebar .secondary{white-space:nowrap}
 .admin-manage{margin-top:22px}.admin-manage h3{margin:0}.admin-zero{padding:24px;text-align:center;border:1px dashed #cbdedc;border-radius:16px;background:white;color:#678085}
 @media(max-width:600px){.admin-wrap{padding:14px 12px 60px}.admin-page-head .primary{width:100%;margin:0}.admin-place-tools{flex-direction:column}.admin-place-tools input,.admin-place-tools select{width:100%;flex:auto}.admin-place-list{grid-template-columns:1fr}.admin-stats strong{font-size:20px}.admin-savebar{bottom:0}.admin-section-inner{padding:11px}}
-</style></head><body><div class="admin-top"><div style="max-width:980px;margin:auto"><h1>🌴 ILHA DA MAGIA · ADMIN</h1><p>Panel privado de administración</p></div></div><div class="admin-wrap" id="admin"><div class="plain-card">Verificando conexión…</div></div>
+</style>
+<style id="ilha-admin-visual-etapa6-safe">
+/* E6 · Organización exclusivamente visual, sin modificar permisos, solicitudes o lógica. */
+.admin-wrap{max-width:1060px;padding:20px clamp(14px,3vw,24px) 84px}
+.admin-top{padding:26px clamp(16px,4vw,30px);border-radius:0 0 26px 26px}
+.admin-top h1{font-size:clamp(23px,3.5vw,29px);line-height:1.2}
+.admin-top p{line-height:1.5}
+.admin-nav{gap:8px;padding:17px 2px 15px;scrollbar-width:thin;scrollbar-color:#bfd9d6 transparent}
+.admin-nav button{background:#fff;border:1px solid #dbeae6;border-radius:13px;padding:11px 16px;min-height:44px;font-size:12px;box-shadow:0 3px 12px rgba(7,86,106,.025)}
+.admin-nav button.active{background:#078c87;border-color:#078c87;box-shadow:0 5px 12px rgba(7,86,106,.12)}
+.admin-nav button:focus-visible,.admin-row button:focus-visible,.admin-form button:focus-visible{outline:3px solid #75c9bc;outline-offset:2px}
+.admin-page-head{margin:7px 0 19px;gap:12px}
+.admin-page-head h2{font-size:22px;line-height:1.25;color:#19444d}
+.admin-page-head p{line-height:1.55}
+.admin-stats{gap:10px;margin-bottom:18px}
+.admin-stats>div{border:1px solid #dfebe8;border-radius:17px;box-shadow:0 7px 18px rgba(7,86,106,.04)}
+.admin-section{border-color:#e0ebe8;border-radius:18px;box-shadow:0 6px 18px rgba(7,86,106,.035)}
+.admin-section>summary{padding:17px 18px;background:#f8fcfb;line-height:1.5}
+.admin-section-inner{gap:15px;padding:17px}
+.admin-row{border-color:#dce9e6;border-radius:18px;padding:16px;box-shadow:0 6px 15px rgba(7,86,106,.04);gap:13px}
+.admin-row small{line-height:1.55}
+.admin-grid{gap:15px}
+.admin-grid .plain-card,.admin-wrap .plain-card{border-color:#e0ebe8;border-radius:19px;box-shadow:0 7px 19px rgba(7,86,106,.035)}
+.req-filters{gap:12px;margin:16px 0}
+.req-filters input,.req-filters select,.admin-form input,.admin-form textarea,.admin-form select{border-color:#d3e5e1;border-radius:13px;min-height:44px;transition:border-color .15s ease,box-shadow .15s ease}
+.req-filters input:focus,.req-filters select:focus,.admin-form input:focus,.admin-form select:focus,.admin-form textarea:focus{outline:0;border-color:#129b93;box-shadow:0 0 0 3px rgba(18,155,147,.11)}
+.admin-form{gap:15px}
+.admin-form label{font-size:12px;color:#2b535b}
+.admin-savebar{border-top:1px solid #dbe8e5;box-shadow:0 -7px 18px rgba(7,86,106,.05);padding:12px}
+.req-detail{padding:14px 0}
+@media(max-width:640px){.admin-wrap{padding-top:15px}.admin-nav button{padding:10px 13px}.admin-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.req-filters{grid-template-columns:1fr}.admin-row{flex-wrap:wrap}.admin-section-inner{padding:14px}}
+@media(prefers-reduced-motion:reduce){.req-filters input,.req-filters select,.admin-form input,.admin-form textarea,.admin-form select{transition:none}}
+</style>
+</head><body><div class="admin-top"><div style="max-width:980px;margin:auto"><h1>🌴 ILHA DA MAGIA · ADMIN</h1><p>Panel privado de administración</p></div></div><div class="admin-wrap" id="admin"><div class="plain-card">Verificando conexión…</div></div>
 <script type="text/ilha-module">window.ILHA_CONFIG={supabaseUrl:"https://axocuqwjpxsitukxwhju.supabase.co",supabasePublishableKey:"sb_publishable_DR4hczQye8bLI0kKxwkxWw_hHzyRU9M"};
 </script>
 <script type="text/ilha-module">/* Supabase bridge: no network mutations when not configured. Publishable key only. */
